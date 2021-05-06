@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+:root {
+  color: var(--primary-white);
+}
+
+.header-wrapper {
+  padding: 5vh;
+  height: 100vh;
+  display: inline-block;
+}
+
+.header-container {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+
+.header-words {
+  font-size: 4rem;
+  font-family: 'Playfair Display', serif;
+  z-index: 0;
+}
+
+.header-description {
+  padding: 2rem 0rem;
+}
+
+.header-description h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0);
+  animation: text-fade-in 3s ease-in 5s forwards;
+  padding: 0.5rem 0rem;
+}
+
+.header-button-wrapper {
+  position: relative;
+  padding: 3rem;
+  text-align: center;
+  align-items: center;
+  z-index: 30;
+  animation: fade-in 3s ease-in 5s forwards;
+  opacity: 0;
+  font-size: 2rem;
+}
+
+.header-button {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.header-button:hover {
+  transform: translateY(1rem);
+}
+
+.header-description a {
+  color: rgba(255, 255, 255, 0);
+  animation: text-fade-in 3s ease-in 5s forwards;
+  z-index: 1200;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .header-wrapper {
+    height: 100vh;
+  }
+  .header-container {
+    width: 90%;
+  }
+  .header-words {
+    font-size: 2.2rem;
+  }
+  .header-description h2 {
+    font-size: 1rem;
+  }
+}

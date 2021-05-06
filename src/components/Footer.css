@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+:root {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  background: var(--background-dark);
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.footer-container h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.footer-text {
+  float: left;
+}
+
+.icon-container {
+  float: right;
+  padding: 0rem 1rem;
+}
+
+.footer-icon {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}

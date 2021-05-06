@@ -1,0 +1,42 @@
+.experience-item {
+  background-color: rgba(255, 255, 255, 0.904);
+  margin: 3rem 0rem;
+  padding: 2rem;
+  color: black;
+  position: relative;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border: 2px solid var(--background-dark);
+}
+
+.experience-title {
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--background-dark);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.experience-date {
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  color: rgb(122, 122, 122);
+}
+
+.experience-description {
+  padding: 0.75rem;
+  font-weight: normal;
+  color: black;
+}
+
+.experience-description li {
+  padding: 0.1rem;
+}

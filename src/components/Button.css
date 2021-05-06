@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-wrapper {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: normal;
+  background-color: transparent;
+  color: var(--primary-white);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--primary-white);
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  transition: all 0.4s ease-out;
+  background: var(--primary-white);
+  color: #000000;
+}
