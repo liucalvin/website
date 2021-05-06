@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
 import NotFound from './components/pages/NotFound';
@@ -9,7 +9,7 @@ import Resume from './components/pages/Resume';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Switch>
           <Route path='/' exact component={Home} />
