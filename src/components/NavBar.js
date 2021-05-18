@@ -86,7 +86,7 @@ function Navbar() {
               </li>
               <li className={click ? 'nav-button-dropdown' : 'nav-item'}>
                 <Button className='nav-link'
-                  link='\documents\Calvin-Liu-Resume.pdf'
+                  link='\documents\Calvin Liu Resume.pdf'
                   target='_blank'
                   children='Resume' />
               </li>
