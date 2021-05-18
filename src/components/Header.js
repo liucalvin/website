@@ -27,7 +27,7 @@ function Header() {
               I'm passionate about making the tech community more equitable,
               accessible, and inclusive to all. I currently volunteer
               at Tech+ UW, where I help to create events and resources
-              to help under-represented groups get into the tech industry.
+              to help underrepresented groups get into the tech industry.
             </h2>
             <h2>
               In my free time, when I'm not exploring new skills or
