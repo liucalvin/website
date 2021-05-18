@@ -120,4 +120,9 @@
   .project-item:hover {
     transform: scale(1);
   }
+  .project-item {
+    max-height: 100vh;
+    max-width: 80vw;
+    justify-content: center;
+  }
 }
