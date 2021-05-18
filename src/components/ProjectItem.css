@@ -5,9 +5,12 @@
   margin: 3rem 1rem;
   position: relative;
   transition: 0.4s ease-in-out;
+  max-height: 100vh;
+  max-width: 25vw;
+  border-radius: 8px;
 }
 
-.project-item::before {
+/* .project-item::before {
   content: "";
   position: absolute;
   top: 2px;
@@ -15,17 +18,14 @@
   right: 2px;
   bottom: 2px;
   border: 2px solid var(--background-dark);
-}
+} */
 
 .project-item-container {
   display: inline;
-  flex: 1;
-  margin: 0 1rem;
   background-color: #fff;
 }
 
 .project-item-link {
-  display: flex;
   flex-flow: column;
   width: 100%;
   overflow: hidden;

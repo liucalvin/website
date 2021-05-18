@@ -4,9 +4,10 @@
   padding: 2rem;
   color: black;
   position: relative;
+  border-radius: 8px;
 }
 
-.experience-item::before {
+/* .experience-item::before {
   content: "";
   position: absolute;
   top: 2px;
@@ -14,7 +15,7 @@
   right: 2px;
   bottom: 2px;
   border: 2px solid var(--background-dark);
-}
+} */
 
 .experience-title {
   position: relative;
