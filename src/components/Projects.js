@@ -46,9 +46,9 @@ function Projects() {
             <ProjectItem
               path='https://github.com/liucalvin/reflect-api'
               text='Reflect'
-              desc='A mood tracking and journaling app on android, built with a backend rest api
+              desc='A journaling app on android built with a backend rest api
                 with Express and MongoDB
-                for user registration, login, storage, and authentication.'
+                for user login, storage, and authentication.'
               src='/images/under-construction.png'
               alt='Reflect Image'
               label='kotlin'
