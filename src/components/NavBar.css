@@ -56,8 +56,8 @@
 }
 
 .nav-link:hover {
-  border-bottom: 0.2rem solid #fff;
-  transition: all 0.2s ease-out;
+  border-bottom: 0.25rem solid #fff;
+  transition: all 0.15s ease-in-out;
 }
 
 @media screen and (max-width: 960px) {
