@@ -28,6 +28,11 @@
   cursor: pointer;
 }
 
+.navbar-home-icon:hover {
+  color: rgb(200, 200, 200);
+  transition: all 0.15s ease-in-out;
+}
+
 .navbar-menu-icon {
   padding: auto;
   color: white;
