@@ -10,7 +10,7 @@ function Background() {
         params={{
           particles: {
             number: {
-              value: 20,
+              value: 30,
               density: {
                 enable: true,
                 value_area: 100
@@ -18,13 +18,13 @@ function Background() {
             },
             line_linked: {
               enable: true,
-              opacity: 0.05
+              opacity: 0.03
             },
             move: {
               speed: 0
             },
             size: {
-              value: 1.5
+              value: 1.05
             },
             opacity: {
               anim: {

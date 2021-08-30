@@ -6,10 +6,10 @@
   --primary-dark: rgba(255, 255, 255, 0);
   --background-dark: rgb(2, 0, 20);
   --background-dark-blue: rgb(0, 0, 90);
-  --background-blue: rgb(2, 4, 146);
-  --background-light-blue: rgb(21, 135, 241);
-  --background-angle: 175deg;
-  background: linear-gradient(var(--background-angle), var(--background-dark) 0%, var(--background-dark-blue) 65%, var(--background-blue) 100%);
+  --background-blue: rgb(9, 76, 163);
+  --background-light-blue: rgb(42, 186, 243);
+  --background-angle: 170deg;
+  background: linear-gradient(var(--background-angle), var(--background-dark) 0%, var(--background-dark-blue) 60%, var(--background-blue) 100%);
 }
 
 * {

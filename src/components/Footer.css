@@ -15,11 +15,12 @@
 
 .footer-container {
   width: 100%;
-  padding: 2rem;
+  padding: 1.2rem;
 }
 
 .footer-container h4 {
-  font-size: 1.25rem;
+  padding: 0.2rem;
+  font-size: 1rem;
 }
 
 .footer-text {
@@ -33,7 +34,7 @@
 
 .footer-icon {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-decoration: none;
   color: white;
 }
